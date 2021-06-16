@@ -13,7 +13,7 @@ Header.defaultProps={
 
 const headingStyle={
   textShadow: '2px 2px 2px black',
-  
+  color: '#ffff'
 }
 
  export default Header
