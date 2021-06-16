@@ -2,7 +2,7 @@ import Header  from "./components/Header";
 function App() {
   return (
     <div className="Container-fluid" style={backgroundStyle}>
-      <div>
+      <div className="d-flex justify-content-center">
       <Header />
 
       </div>
@@ -12,5 +12,6 @@ function App() {
   const backgroundStyle={
     backgroundColor: '#6b6b6b',
 backgroundImage: "url('https://www.transparenttextures.com/patterns/black-orchid.png')",
+height: '100vh',
   }
 export default App;

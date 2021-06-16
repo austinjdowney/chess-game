@@ -12,7 +12,8 @@ Header.defaultProps={
 }
 
 const headingStyle={
-  textShadow: '2px 2px 2px black',
+  fontSize: '10rem',
+  textShadow: '2px  2px 10px black',
   color: '#ffff'
 }
 
