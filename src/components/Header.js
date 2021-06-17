@@ -8,7 +8,7 @@ export const Header = ({title}) => {
 }
 
 Header.defaultProps={
-  title:'King Me',
+  title:'CheckMate',
 }
 
 const headingStyle={
