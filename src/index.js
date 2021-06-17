@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import GameDetailsPage from './pages/GameDetailsPage';
+import {BrowserRouter, Route, Switch} from "react-router-dom"
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Switch>
+
+    <Route exact path="/" component={App} />
+    <Route path="./pages/GameDetailsPage" component={GameDetailsPage} />
+    </Switch>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
