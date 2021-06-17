@@ -12,7 +12,7 @@ function App() {
        <div className="col-12 d-flex justify-content-center">
           <Link to="../pages/GameDetailsPage">
             {/* Link to Game Details/Setup Page */}
-            <button className='btn btn-outline-light btn-XL'> PLAY GAME </button>
+            <button className='btn btn-outline-light btn-lg'> Ready To Play? </button>
           </Link>
        </div>
       </div>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function GameDetailsPage(){
   return(
-    <div className="container-fluid">
+    <div className="container-fluid" style={backgroundStyle}>
 
       <div className="row justify-content-center">
         <div className="col-6">
@@ -23,6 +23,11 @@ function GameDetailsPage(){
       </div>
     </div>
   )
+}
+const backgroundStyle={
+  backgroundColor: '#6b6b6b',
+backgroundImage: "url('https://www.transparenttextures.com/patterns/black-orchid.png')",
+height: '100vh',
 }
 
 export default GameDetailsPage;
