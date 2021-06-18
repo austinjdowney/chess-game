@@ -9,7 +9,7 @@ import {BrowserRouter, Route, Switch} from "react-router-dom"
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-    <Route exact path="/" component={App} />
+    <Route path="/" component={App} />
     <Route path="../pages/GameDetailsPage" component={GameDetailsPage} />
     </Switch>
   </BrowserRouter>,
