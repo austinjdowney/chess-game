@@ -10,7 +10,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
     <Route path="/" component={App} />
-    <Route path="../pages/GameDetailsPage" component={GameDetailsPage} />
+    <Route path="./GameDetailsPage" component={GameDetailsPage} />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')
